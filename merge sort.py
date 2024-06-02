@@ -14,7 +14,7 @@ def merge_sort(l):
     if len(l)<=1:
         return l
     else:
-        left_list=l[:len(l)//2:]
+        left_list=l[:len(l)//2]
         right_list=l[len(l)//2:]
         left_list=merge_sort(left_list)
         right_list=merge_sort(right_list)
